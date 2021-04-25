@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"
+      rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2731369818.js" crossorigin="anonymous"></script>
+
+    <!-- Animate on Scrolling -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Tracking COVID-19</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand text-covid" to="/">COVID-19 Tracker</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tracking.html">Tracking</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <header class="masthead text-center">
+      <div class="masthead-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 mb-5 aos-init" data-aos="fade-right">
+              <div class="mt-4 mb-5">
+                <div class="card">
+                  <div class="card-body p-2 pl-3 pr-3">
+                    <span class="card-text d-flex">
+                      <div class="btn btn-danger text-bold">Live</div>
+                      <div class="flex-grow-1">
+                        <marquee behavior="" direction="" class="vertical-middle">
+                          <span><b>Global :</b> <span class="text-warning">147,173,866</span> confirmed - <span class="text-covid">3,115,296</span> deaths - <span class="text-success">125,192,390</span> recoveries</span>
+                          <span>
+                            <span class="mx-3">&#5867;</span>
+                            <span><b>Indonesia : </b><span class="text-covid">1,641,194</span> cases</span>
+                            <span class="mx-3">&#5867;</span>
+                            <span><b>Malaysia : </b><span class="text-covid">392,942</span> cases</span>
+                            <span class="mx-3">&#5867;</span>
+                            <span><b>Singapore : </b><span class="text-covid">61,006</span> cases</span>
+                            <span class="mx-3">&#5867;</span>
+                            <span><b>Hongkong : </b><span class="text-covid">11,737</span> cases</span>
+                            <span class="mx-3">&#5867;</span>
+                            <span><b>Australia : </b><span class="text-covid">29,661</span> cases</span>
+                          </span>
+                        </marquee>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <h1 class="masthead-heading pt-5">One stop platform for data and news related to COVID-19</h1>
+              <p class="masthead-subheading mb-0">This site is a source of information on Hacktiv8 employee voluntary initiatives, academics, medical professionals, fullstack developers, to the general public.</p>
+              <a href="./tracking.html" class="btn btn-primary btn-xl rounded-pill mt-5">Tracking Other Countries</a>
+            </div>
+            <div class="col-md-5 d-flex">
+              <img class="img-fluid my-auto aos-init" data-aos="fade-left" src="./assets/img/medicine.svg" alt="">
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class="svg-border-rounded text-covid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+          <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+        </svg>
+      </div>
+    </header>
+
+    <section class="bg-covid pt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 text-center mt-5 mb-5 text-white">
+            <h2 class="display-5">Number of COVID-19 cases in Indonesia</h2>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-3">
+            <div class="card">
+              <div class="card-body covid-box">
+                <h5 class="card-title text-warning text-card">1,641,194</h5>
+                <p class="card-text">Confirmed</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-3">
+            <div class="card">
+              <div class="card-body covid-box">
+                <h5 class="card-title text-info text-card">100,474</h5>
+                <p class="card-text">Currently Infected</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-3">
+            <div class="card">
+              <div class="card-body covid-box">
+                <h5 class="card-title text-success text-card">1,496,126</h5>
+                <p class="card-text">Recoveries</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-3">
+            <div class="card">
+              <div class="card-body covid-box">
+                <h5 class="card-title text-danger text-card">44,594</h5>
+                <p class="card-text">Deaths</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 text-white pt-5 pb-5">
+          <span>Latest update</span>
+          <p>Sun Apr 25 2021 18:25:19 GMT+0700 (Western Indonesia Time)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips">
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-sm-12 text-center my-5 text-black">
+            <h2 class="display-4">Tips: Protect yourself and others</h2>
+          </div>
+        </div>
+        <div class="row align-items-center aos-init" data-aos="fade-up-right">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="./assets/img/wash-hand.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5 tips">
+              <h2 class="display-4">Wash your hands</h2>
+              <p>Frequently wash your hands with soap and running water when <span class="text-covid">hands are visibly
+                  dirty.</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center aos-init" data-aos="fade-up-left">
+          <div class="col-md-6 order-md-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="./assets/img/women-coughing.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <div class="p-5 tips">
+              <h2 class="display-4">Cover mouth when coughing</h2>
+              <p>When coughing and sneezing <span class="text-covid">cover mouth and nose</span> with flexed elbow or
+                tissue.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center aos-init" data-aos="fade-up-right">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="./assets/img/cleaning-workspace.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5 tips">
+              <h2 class="display-4">Disinfect working area</h2>
+              <p><span class="text-covid">Disinfect equipment and working area</span> at least once a day.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="svg-border-rounded text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+          <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+        </svg>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="my-5 text-center text-white">Copyright &copy; Hacktiv8 2021. Made with <i class="fa fa-heart text-covid"></i> by <a href="https://github.com/afifahrahmak" target="_blank" class="text-white">me</a></p>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+    <!-- Animate on Scrolling -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
